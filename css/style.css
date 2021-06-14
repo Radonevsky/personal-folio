@@ -49,6 +49,7 @@ p {
 ==============*/
 
 .header {
+  margin-bottom: 110px;
   padding: 1rem 0;
   background-color: #2b7ded;
 }
@@ -104,3 +105,57 @@ p {
   bottom: -5px;
 }
 
+/* Content 
+==============*/
+
+.content {
+  width: 622px;
+}
+
+.subtitle {
+  font-size: 1.4rem;
+  color: rgba(225, 225, 225, .6);
+  font-weight: 300;
+}
+
+.title {
+  margin-bottom: 35px;
+
+  font-size: 2rem;
+  font-weight: 500;
+  color: #fff;
+  line-height: 1.2;
+}
+
+.title span {
+  color: #2B7DED;
+}
+
+.text {
+  margin-bottom: 50px;
+
+  font-size: 1rem;
+  color: #fff;
+}
+
+/* Btn 
+==============*/
+
+.btn {
+  display: inline-block;
+  padding: 12px 35px;
+
+  font-size: 1rem;
+  line-height: 1.1;
+  font-weight: 500;
+  color: #fff;
+  background-color: #2B7DED;
+  border-radius: 5px;
+  text-decoration: none;
+  
+  transition: background-color .2s linear;
+}
+
+.btn:hover {
+  background-color: #1e65c9;
+}
