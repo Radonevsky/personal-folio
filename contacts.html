@@ -25,9 +25,9 @@
           </div>
 
           <nav class="header-nav">
-            <a class="header-nav-link active" href="index.html">Home</a>
+            <a class="header-nav-link" href="index.html">Home</a>
             <a class="header-nav-link" href="about.html">Aboute me</a>
-            <a class="header-nav-link" href="contacts.html">Contacts</a>
+            <a class="header-nav-link active" href="contacts.html">Contacts</a>
           </nav>
 
         </div>
@@ -38,19 +38,37 @@
     <div class="container">
       <main class="content">
         <div class="content-header">
-          <h2 class="subtitle">My name is</h2>
-          <h1 class="title">Ivan Radonevsky and I’m <span>Web Developer</span></h1>
+          <h1 class="title">Write me a <span>Message</span></h1>
+          <div class="text">
+            <p>Many desktop publishing packages and web page editors now use Lorem</p>
+          </div>
         </div>
-        <div class="text">
-          <p>It is a long established fact that a reader will be distracted by the readable content of a page when
-            looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of
-            letters, as opposed to using ‘Content here, content here’, making it look like readable English. Many
-            desktop publishing</p>
-        </div>
-        <a class="btn" href="#">Contact me</a>
+
+        <form class="form" actoin="/" method="POST">
+          <div class="form-group">
+            <input class="input" type="text" name="name" placeholder="Name">
+          </div>
+
+          <div class="form-group">
+            <input class="input" type="email" name="email" placeholder="Email">
+          </div>
+
+          <div class="form-group">
+            <input class="input" type="tel" name="phone" placeholder="Phone">
+          </div>
+
+          <div class="form-group">
+            <textarea class="textarea" placeholder="Message"></textarea>
+          </div>
+
+          <div class="form-group">
+            <button class="btn btn-full" type="submit">Send message</button>
+          </div>
+        </form>
       </main>
     </div> <!-- /.container -->
     <img class="main-photo" src="img/main-photo-personal-folio.png" alt="">
+
 
     <!-- Footer -->
     <footer class="footer">
